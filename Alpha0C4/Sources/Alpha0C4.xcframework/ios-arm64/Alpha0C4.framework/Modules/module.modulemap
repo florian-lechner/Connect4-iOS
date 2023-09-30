@@ -1,0 +1,11 @@
+framework module Alpha0C4 {
+  umbrella header "Alpha0C4.h"
+  export *
+
+  module * { export * }
+}
+
+module Alpha0C4.Swift {
+  header "Alpha0C4-Swift.h"
+  requires objc
+}
