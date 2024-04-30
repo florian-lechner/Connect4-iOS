@@ -7,7 +7,7 @@
 
 import UIKit
 import Alpha0C4
-
+/*
 class ViewController: UIViewController {
     // MARK: UI Outlets
     @IBOutlet weak var gameLabel: UILabel!
@@ -40,7 +40,7 @@ class ViewController: UIViewController {
         print("CONNECT4 \(gameSession.boardLayout.rows) rows by \(gameSession.boardLayout.columns) columns")
         
         // Start game, resuming with some discs
-        // set initialMoves to [(Int, Int)]() to start with clear board
+        // set initialMoves to [(Int, Int)]() to start with clear board  -> !!! save game state to resume after start
         let initialMoves = [(row: 1, column: 4), (row: 2, column: 4)]
         self.gameSession.startGame(delegate: self, botPlays: botColor, first: isBotFirst, initialPositions: initialMoves)
     }
@@ -136,3 +136,4 @@ extension ViewController: GameSessionDelegate
     }
 
 }
+*/

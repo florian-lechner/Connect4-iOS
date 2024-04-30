@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "1EEE165E-85B0-4719-B4D4-DCB88D7EDF5F"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "38B590F4-96F9-4192-984D-0109F3FF4B8A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Connect4/GameVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
+            landmarkName = "GameVC"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "38B590F4-96F9-4192-984D-0109F3FF4B8A - d7a0b222167de7af"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Connect4.GameVC.connect4View.getter : Swift.Optional&lt;Connect4.Connect4BoardView&gt;"
+                  moduleName = "Connect4"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/florian/Documents/Uni/Dublin/Trimester%204/Swift%20for%20App%20Development%20-%20COMP47390/Swift%20Projects/Connect4-Startup/Connect4/GameVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  uuid = "38B590F4-96F9-4192-984D-0109F3FF4B8A - 3f5cda19a4fbbfa3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Connect4.GameVC.connect4View.setter : Swift.Optional&lt;Connect4.Connect4BoardView&gt;"
+                  moduleName = "Connect4"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/florian/Documents/Uni/Dublin/Trimester%204/Swift%20for%20App%20Development%20-%20COMP47390/Swift%20Projects/Connect4-Startup/Connect4/GameVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "24">
+               </Location>
+               <Location
+                  uuid = "38B590F4-96F9-4192-984D-0109F3FF4B8A - cce3725266ae2033"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Connect4.GameVC.connect4View.modify : Swift.Optional&lt;Connect4.Connect4BoardView&gt;"
+                  moduleName = "Connect4"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/florian/Documents/Uni/Dublin/Trimester%204/Swift%20for%20App%20Development%20-%20COMP47390/Swift%20Projects/Connect4-Startup/Connect4/GameVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "38B590F4-96F9-4192-984D-0109F3FF4B8A - da3215616c6316e1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Connect4.GameVC.connect4View.modify : Swift.Optional&lt;Connect4.Connect4BoardView&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "Connect4"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/florian/Documents/Uni/Dublin/Trimester%204/Swift%20for%20App%20Development%20-%20COMP47390/Swift%20Projects/Connect4-Startup/%3Ccompiler-generated%3E"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  uuid = "38B590F4-96F9-4192-984D-0109F3FF4B8A - f4324fab632d8376"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Connect4.GameVC.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; Connect4.GameVC"
+                  moduleName = "Connect4"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/florian/Documents/Uni/Dublin/Trimester%204/Swift%20for%20App%20Development%20-%20COMP47390/Swift%20Projects/Connect4-Startup/Connect4/GameVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "620">
+               </Location>
+               <Location
+                  uuid = "38B590F4-96F9-4192-984D-0109F3FF4B8A - 1bac13c9433256bb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Connect4.GameVC.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Connect4.GameVC&gt;"
+                  moduleName = "Connect4"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/florian/Documents/Uni/Dublin/Trimester%204/Swift%20for%20App%20Development%20-%20COMP47390/Swift%20Projects/Connect4-Startup/Connect4/GameVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "600">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

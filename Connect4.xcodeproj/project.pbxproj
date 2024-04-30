@@ -7,9 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		171E5B7A2B17455C00197320 /* CoreDataDisc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 171E5B792B17455C00197320 /* CoreDataDisc.swift */; };
+		171E5B7C2B1749A600197320 /* CoreDataSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 171E5B7B2B1749A600197320 /* CoreDataSession.swift */; };
+		179138082B247DDC003F4E47 /* Views.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179138072B247DDC003F4E47 /* Views.swift */; };
+		17AAA0B92B2385460082E048 /* GameVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17AAA0B82B2385460082E048 /* GameVC.swift */; };
+		17AAA0BB2B2386300082E048 /* HistoryTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17AAA0BA2B2386300082E048 /* HistoryTVC.swift */; };
 		659C04D12AC6D4C0000865D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 659C04D02AC6D4C0000865D7 /* AppDelegate.swift */; };
 		659C04D32AC6D4C0000865D7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 659C04D22AC6D4C0000865D7 /* SceneDelegate.swift */; };
-		659C04D52AC6D4C0000865D7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 659C04D42AC6D4C0000865D7 /* ViewController.swift */; };
 		659C04D82AC6D4C0000865D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 659C04D62AC6D4C0000865D7 /* Main.storyboard */; };
 		659C04DB2AC6D4C0000865D7 /* Connect4.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 659C04D92AC6D4C0000865D7 /* Connect4.xcdatamodeld */; };
 		659C04DD2AC6D4C1000865D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 659C04DC2AC6D4C1000865D7 /* Assets.xcassets */; };
@@ -18,10 +22,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		171E5B792B17455C00197320 /* CoreDataDisc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataDisc.swift; sourceTree = "<group>"; };
+		171E5B7B2B1749A600197320 /* CoreDataSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataSession.swift; sourceTree = "<group>"; };
+		179138072B247DDC003F4E47 /* Views.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views.swift; sourceTree = "<group>"; };
+		17AAA0B82B2385460082E048 /* GameVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameVC.swift; sourceTree = "<group>"; };
+		17AAA0BA2B2386300082E048 /* HistoryTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryTVC.swift; sourceTree = "<group>"; };
 		659C04CD2AC6D4C0000865D7 /* Connect4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Connect4.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		659C04D02AC6D4C0000865D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		659C04D22AC6D4C0000865D7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		659C04D42AC6D4C0000865D7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		659C04D72AC6D4C0000865D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		659C04DA2AC6D4C0000865D7 /* Connect4.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Connect4.xcdatamodel; sourceTree = "<group>"; };
 		659C04DC2AC6D4C1000865D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -42,6 +50,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		17AAA0B72B20AAD40082E048 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				171E5B792B17455C00197320 /* CoreDataDisc.swift */,
+				171E5B7B2B1749A600197320 /* CoreDataSession.swift */,
+				659C04D92AC6D4C0000865D7 /* Connect4.xcdatamodeld */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
 		659C04C42AC6D4C0000865D7 = {
 			isa = PBXGroup;
 			children = (
@@ -65,12 +83,14 @@
 			children = (
 				659C04D02AC6D4C0000865D7 /* AppDelegate.swift */,
 				659C04D22AC6D4C0000865D7 /* SceneDelegate.swift */,
-				659C04D42AC6D4C0000865D7 /* ViewController.swift */,
+				17AAA0B82B2385460082E048 /* GameVC.swift */,
+				17AAA0BA2B2386300082E048 /* HistoryTVC.swift */,
+				179138072B247DDC003F4E47 /* Views.swift */,
+				17AAA0B72B20AAD40082E048 /* CoreData */,
 				659C04D62AC6D4C0000865D7 /* Main.storyboard */,
 				659C04DC2AC6D4C1000865D7 /* Assets.xcassets */,
 				659C04DE2AC6D4C1000865D7 /* LaunchScreen.storyboard */,
 				659C04E12AC6D4C1000865D7 /* Info.plist */,
-				659C04D92AC6D4C0000865D7 /* Connect4.xcdatamodeld */,
 			);
 			path = Connect4;
 			sourceTree = "<group>";
@@ -156,10 +176,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				659C04D52AC6D4C0000865D7 /* ViewController.swift in Sources */,
+				171E5B7A2B17455C00197320 /* CoreDataDisc.swift in Sources */,
+				17AAA0BB2B2386300082E048 /* HistoryTVC.swift in Sources */,
 				659C04D12AC6D4C0000865D7 /* AppDelegate.swift in Sources */,
+				171E5B7C2B1749A600197320 /* CoreDataSession.swift in Sources */,
+				17AAA0B92B2385460082E048 /* GameVC.swift in Sources */,
 				659C04D32AC6D4C0000865D7 /* SceneDelegate.swift in Sources */,
 				659C04DB2AC6D4C0000865D7 /* Connect4.xcdatamodeld in Sources */,
+				179138082B247DDC003F4E47 /* Views.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,7 +335,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = QJJ8RUJ7UW;
+				DEVELOPMENT_TEAM = 3UZLTPPVXQ;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Connect4/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -324,7 +348,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = ie.ucd.cs.comp47390.Connect4;
+				PRODUCT_BUNDLE_IDENTIFIER = ie.ucd.cs.comp47390.22203610.Connect4;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -339,7 +363,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = QJJ8RUJ7UW;
+				DEVELOPMENT_TEAM = 3UZLTPPVXQ;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Connect4/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -352,7 +376,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = ie.ucd.cs.comp47390.Connect4;
+				PRODUCT_BUNDLE_IDENTIFIER = ie.ucd.cs.comp47390.22203610.Connect4;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
